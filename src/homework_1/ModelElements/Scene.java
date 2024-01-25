@@ -3,10 +3,10 @@ package homework_1.ModelElements;
 import java.util.List;
 
 public class Scene {
-    private int id;
-    private List<PolygonalModel> models;
-    private List<Flash> flashes;
-    private List<Camera> cameras;
+    public int id;
+    public List<PolygonalModel> models;
+    public List<Flash> flashes;
+    public List<Camera> cameras;
 
     public Scene(int id, List<PolygonalModel> models, List<Flash> flashes, List<Camera> cameras) {
         this.id = id;

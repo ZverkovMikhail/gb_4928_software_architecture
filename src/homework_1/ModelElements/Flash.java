@@ -5,10 +5,10 @@ import homework_1.stuff.*;
 import java.awt.*;
 
 public class Flash {
-    private Point3D location;
-    private Angle3D angle;
-    private Color color;
-    private float power;
+    public Point3D location;
+    public Angle3D angle;
+    public Color color;
+    public float power;
 
     public Flash(Point3D location, Angle3D angle, Color color, float power) {
         this.location = location;

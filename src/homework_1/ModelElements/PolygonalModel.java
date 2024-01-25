@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PolygonalModel {
-    private List<Polygon> polygons;
-    private List<Texture> textures;
+    public List<Polygon> polygons;
+    public List<Texture> textures;
     public PolygonalModel(List<Texture> textures) {
         this.textures = textures;
 
